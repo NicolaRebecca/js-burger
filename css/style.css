@@ -29,12 +29,13 @@
 }
 
 .main-page{
-    height: 630px;
+    background-color: whitesmoke;
+    height: 680px;
 }
 
 .burger-name {
     color: slategrey;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-left:50px;
 }
 
@@ -46,13 +47,23 @@
 
 .ingredients{
    
-    margin-top:30px;
-    display: inline-block;
-    margin-left: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top:30px;
+   margin-left: 30px;
+   
+  
 }
 
 .ingredients img{
-width: 8%;
+width: 10%;
+}
+
+.ingredients label, .ingredients input{
+    font-size: 15px;
+    margin-bottom:40px;
+   
 }
 
 .discount{
@@ -65,15 +76,34 @@ width: 8%;
     margin-left:50px;
 }
 
+.calculate-button button{
+    background-color: rgb(241, 100, 75);
+    color: white;
+    font-size:14px;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+}
 
 footer{
+    display: flex;
+    justify-content: space-between;
     max-width: 1200px;
     background-color: rgb(223, 49, 92);
     height: 100px;
 }
 
+.your-price{
+    padding-left:30px;
+    padding-top:40px;
+    font-size: 30px;
+    color: white;
+}
+
 .total-price{
-    display: inline;
-    float: right;
+    padding-top:40px;
+    font-size: 30px;
+    color: white;
+    
 }
 
